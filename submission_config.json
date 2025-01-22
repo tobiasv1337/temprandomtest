@@ -1,0 +1,23 @@
+{
+    "language": "rust",
+    "AUTOCOMMIT": true,
+    "ALLOW_WARNINGS": true,
+    "ALLOW_ERRORS": false,
+    "contest_id": "vc4",
+    "problem_short_name": "vc",
+    "zip_files": [
+      {
+        "zip_name": "test.zip",
+        "include_paths": [
+          {
+            "source": "README.md",
+            "destination": "test_README.md"
+          }
+        ]
+      }
+    ],
+    "branches": [
+      "main"
+    ],
+    "auto_merge_branch": "submit"
+}
