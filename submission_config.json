@@ -9,10 +9,14 @@
       {
         "zip_name": "test.zip",
         "include_paths": [
-          {
-            "source": "README.md",
-            "destination": "test_README.md"
-          }
+            {
+                "source": "testproject/src",
+                "destination": "src"
+            },
+            {
+                "source": "testproject/Cargo.toml",
+                "destination": "Cargo.toml"
+            }
         ]
       }
     ],
