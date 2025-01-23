@@ -7,21 +7,21 @@
     "problem_short_name": "vc",
     "zip_files": [
       {
-        "zip_name": "test.zip",
+        "zip_name": "cpptest.zip",
         "include_paths": [
             {
-                "source": "testproject/src",
-                "destination": "src"
+                "source": "cppproject/main.cpp",
+                "destination": "main.cpp"
             },
             {
-                "source": "testproject/Cargo.toml",
-                "destination": "Cargo.toml"
+                "source": "cppproject/CMakelists.txt",
+                "destination": "CMakelists.txt"
             }
         ]
       }
     ],
     "branches": [
-      "main"
+      "main, submit"
     ],
     "auto_merge_branch": "submit"
 }
