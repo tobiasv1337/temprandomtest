@@ -14,8 +14,8 @@
                 "destination": "main.cpp"
             },
             {
-                "source": "cppproject/CMakelists.txt",
-                "destination": "CMakelists.txt"
+                "source": "cppproject/CMakeLists.txt",
+                "destination": "CMakeLists.txt"
             }
         ]
       }
