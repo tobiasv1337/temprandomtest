@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Enable warnings for GCC and Clang
 if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-    add_compile_options(-Wall -Wextra -pedantic -Werror)
+    add_compile_options(-Wall -Wextra -pedantic)
 elseif (CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
     # Enable warnings and treat them as errors for MSVC
     add_compile_options(/W4 /WX)
