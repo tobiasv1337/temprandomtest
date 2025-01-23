@@ -21,7 +21,7 @@
       }
     ],
     "branches": [
-      "main"
+      "main, submit"
     ],
     "auto_merge_branch": "submit"
 }
